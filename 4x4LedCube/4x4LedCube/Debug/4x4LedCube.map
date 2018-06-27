@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.6  D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm Tue Jun 26 21:03:09 2018
+AVRASM ver. 2.2.6  D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm Wed Jun 27 00:17:34 2018
 
 
 EQU  SIGNATURE_000 0000001e
@@ -604,8 +604,13 @@ EQU  INT2addr     00000024
 EQU  OC0addr      00000026
 EQU  SPMRaddr     00000028
 EQU  INT_VECTORS_SIZE 0000002a
-CSEG start        00000032
-CSEG delay_5ms    0000002a
-CSEG L1           0000002c
-CSEG reset        00000038
-CSEG loop         0000003a
+CSEG init         00000014
+CSEG shift        00000002
+CSEG _high_bits   00000008
+CSEG delay_5ms    0000000c
+CSEG L1           0000000e
+CSEG start        0000001e
+CSEG reset        00000022
+CSEG loop         00000024
+CSEG _shift       00000030
+CSEG _end         00000033

@@ -22,10 +22,15 @@
   <FILE>4x4LedCube.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <start><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>27</LINE></start>
-  <delay_5ms><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>17</LINE></delay_5ms>
-  <L1><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>20</LINE></L1>
-  <reset><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>34</LINE></reset>
-  <loop><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>37</LINE></loop>
+  <init><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>41</LINE></init>
+  <shift><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>16</LINE></shift>
+  <_high_bits><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>23</LINE></_high_bits>
+  <delay_5ms><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>31</LINE></delay_5ms>
+  <L1><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>34</LINE></L1>
+  <start><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>52</LINE></start>
+  <reset><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>57</LINE></reset>
+  <loop><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>60</LINE></loop>
+  <_shift><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>72</LINE></_shift>
+  <_end><FILE>D:\hack\avr\asm\4x4LedCube\4x4LedCube\main.asm</FILE><LINE>75</LINE></_end>
  </LABELS>
 </ASSEMBLER_INFO>
